@@ -1,0 +1,470 @@
+@font-face {
+    font-family: seinfeld;
+    src: url("Seinfeld Font-Oblique.otf");
+}
+body{
+    margin: auto;
+    background: linear-gradient( rgb(73, 65, 102),rgb(18, 18, 24));
+}
+p{
+    position:absolute;
+    font-family: Seinfeld;
+    color: #2a253b;
+    font-weight: 600;
+    font-size: 30px;
+    right:410px;
+    top:10px;
+}
+.description{
+    margin-bottom: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    font-weight:600;
+    font-family: seinfeld;
+    font-size:30px;
+    color: #41395f;
+    text-shadow:  1px 1px #000000;
+    background:linear-gradient(to right ,#6a51a0,#9393d7);
+    size: 70px;
+    border-style:solid;
+    border-color: #6a51a0;
+    border-radius: 15px; 
+    border-width: 10px;
+    overflow-y: auto;
+    width: 515px;
+    height: 350px;
+    right: 40px;
+    margin-top: 65px;
+    opacity: 70%;
+
+
+}
+#back{
+    font-family: Seinfeld;
+    background: linear-gradient(#fcd81a,#c1a416);
+    width: 515px;
+    position:absolute;
+    right: 50px;
+    bottom: 190px;
+}
+#back:hover{
+    opacity: 70%;    
+}
+video{
+    width:900px;
+    height: 505px;
+}
+.vid{
+    margin-top: 8px;
+    margin-left: 10px;
+    font-family: Seinfeld;
+    background-color: rgb(52, 52, 68);
+    text-align: center;
+    width:fit-content;
+    height:fit-content;
+    border-style: solid;
+    border-width: 15px;
+    border-color: rgb(95, 86, 129);
+}
+button{
+    font-family: Seinfeld;
+    font-size: 20px;
+    font-weight: 600;
+    color: #e4021c;
+    background: linear-gradient( #fcd81a,#c1a416);
+    border-style: solid;
+    border-radius: 35px;
+    border-color: #c1a416;
+    border-width: 5px;
+    text-shadow:1px 1px black;
+}
+.episodes{
+    margin-top: 6px;
+    white-space: nowrap;
+    height: 150px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.ep1{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep1:hover{
+    opacity: 70%;
+}
+.ep2{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep2:hover{
+    opacity: 70%;
+}
+.ep3{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep3:hover{
+    opacity: 70%;
+}
+.ep4{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep4:hover{
+    opacity: 70%;
+}
+.ep5{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep5:hover{
+    opacity: 70%;
+}
+.ep6{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep6:hover{
+    opacity: 70%;
+}
+.ep7{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep7:hover{
+    opacity: 70%;
+}
+.ep8{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep8:hover{
+    opacity: 70%;
+}
+.ep9{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep9:hover{
+    opacity: 70%;
+}
+.ep10{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep10:hover{
+    opacity: 70%;
+}
+.ep11{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep11:hover{
+    opacity: 70%;
+}
+.ep12{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep12:hover{
+    opacity: 70%;
+}
+.ep13{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep13:hover{
+    opacity: 70%;
+}
+.ep14{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep14:hover{
+    opacity: 70%;
+}
+.ep15{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep15:hover{
+    opacity: 70%;
+}
+.ep16{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep16:hover{
+    opacity: 70%;
+}
+.ep17{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep17:hover{
+    opacity: 70%;
+}
+.ep18{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep18:hover{
+    opacity: 70%;
+}
+.ep19{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep19:hover{
+    opacity: 70%;
+}
+.ep20{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep20:hover{
+    opacity: 70%;
+}
+.ep21{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep21:hover{
+    opacity: 70%;
+}
+.ep22{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep22:hover{
+    opacity: 70%;
+}
+.ep23{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep23:hover{
+    opacity: 70%;
+}
+.ep24{
+    display: inline-block;
+    position:relative;
+    background-image: url("episodepic.png");
+    opacity: 50%;
+    border-style: solid;
+    border-color: #534d68;
+    border-width: 15px;
+    border-radius: 3px;
+    width: 225px;
+    height: 100px;
+}
+.ep24:hover{
+    opacity: 70%;
+}
+::-webkit-scrollbar {
+    background: transparent;
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 25px rgb(255, 191, 0); 
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #b30000; 
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #5e0a0a; 
+  }
+  ::selection {
+    color: rgb(255, 0, 0);
+    background: rgb(255, 255, 255);
+  }

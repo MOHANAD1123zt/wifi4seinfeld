@@ -1,0 +1,317 @@
+@font-face {
+    font-family: seinfeld;
+    src: url("Seinfeld Font-Oblique.otf");
+}
+body{
+    margin: auto;
+    margin-top: 37px;
+    background: linear-gradient( rgb(73, 65, 102),rgb(31 29 42)255px);
+}
+#s1and2cover{
+    margin: 15px;
+    background-size: cover;
+    background-image: url("Seinfeld1&2.jpeg");
+    width: 265px;
+    height: 378px;
+    border-style:solid;
+    border-width: 15px;
+    border-color: rgb(66, 62, 90); 
+}
+#s3cover{
+    margin: 15px;
+    background-size: cover;
+    background-image: url("Seinfeld3.jpeg");
+    width: 265px;
+    height: 378px;
+    border-style:solid;
+    border-width: 15px;
+    border-color: rgb(66, 62, 90); 
+}
+#s4cover{
+    margin: 15px;
+    background-size: cover;
+    background-image: url("Seinfeld4.jpeg");
+    width: 265px;
+    height: 378px;
+    border-style:solid;
+    border-width: 15px;
+    border-color: rgb(66, 62, 90);   
+}
+#s5cover{
+    margin: 15px;
+    background-size: cover;
+    background-image: url("Seinfeld5.jpeg");
+    width: 265px;
+    height: 378px;
+    border-style:solid;
+    border-width: 15px;
+    border-color: rgb(66, 62, 90); 
+}
+#s6cover{
+    margin: 15px;
+    background-size: cover;
+    background-image: url("Seinfeld6.jpeg");
+    width: 265px;
+    height: 378px;
+    border-style:solid;
+    border-width: 15px;
+    border-color: rgb(66, 62, 90); 
+}
+#s7cover{
+    margin: 15px;
+    background-size: cover;
+    background-image: url("Seinfeld7.jpeg");
+    width: 265px;
+    height: 378px;
+    border-style:solid;
+    border-width: 15px;
+    border-color: rgb(66, 62, 90); 
+}
+#s8cover{
+    margin: 15px;
+    background-size: cover;
+    background-image: url("Seinfeld8.jpeg");
+    width: 265px;
+    height: 378px;
+    border-style:solid;
+    border-width: 15px;
+    border-color: rgb(66, 62, 90); 
+}
+#s9cover{
+    margin: 15px;
+    background-size: cover;
+    background-image: url("seinfeld9.jpeg");
+    width: 265px;
+    height: 378px;
+    border-style:solid;
+    border-width: 15px;
+    border-color: rgb(66, 62, 90); 
+}
+.introduction{
+    margin: 15px;
+    font-weight:600;
+    font-family: seinfeld;
+    font-size:50px;
+    color: #e4021c;
+    text-shadow: 2px 1px #000;
+    background: linear-gradient( #fcd81a,#c1a416);
+    height: auto;
+    width: 800px;
+    box-shadow: 3px 3px#3a3106;
+    border-style: solid;
+    border-color: #fcd81a;
+    border-radius: 35px;
+}
+.description{
+    margin: 15px;
+    font-weight:600;
+    font-family: seinfeld;
+    font-size:25px;
+    color: #41395f;
+    text-shadow: 2px 1px #000;
+    background:linear-gradient(to right ,#6a51a0,#9393d7);
+    height: 100px;
+    border-style:solid;
+    border-color: #6a51a0;
+    border-width: 10px;
+    border-radius: 35px;
+    opacity: 70%;
+    overflow-y: scroll;
+}
+.s1and2box{
+    display: inline-block;
+    margin: 1px;
+    margin-top: 20px;
+    position: relative;
+    font-weight:600;
+    font-family: seinfeld;
+    font-size:50px;
+    color: #e4021c;
+    text-shadow: 2px 1px #000;
+    background:#534d68;
+    border-color: #534d68;
+    height: 407px;
+    width: fit-content;
+    border-width: 15px;
+    border-radius: 3px;
+    opacity: 50%;
+}
+.s1and2box:hover{
+    opacity: 70%;
+}
+.s3box{
+    display: inline-block;
+    margin: 1px;
+    margin-top: 20px;
+    position: relative;
+    font-weight:600;
+    font-family: seinfeld;
+    font-size:50px;
+    color: #e4021c;
+    text-shadow: 2px 1px #000;
+    background:#534d68;
+    border-color: #534d68;
+    height: 407px;
+    width: fit-content;
+    border-width: 15px;
+    border-radius: 3px;
+    opacity: 50%;
+}
+.s3box:hover{
+    opacity: 70%;
+}
+.s4box{
+    display: inline-block;
+    margin: 1px;
+    margin-top: 20px;
+    position: relative;
+    font-weight:600;
+    font-family: seinfeld;
+    font-size:50px;
+    color: #e4021c;
+    text-shadow: 2px 1px #000;
+    background:#534d68;
+    border-color: #534d68;
+    height: 407px;
+    width: fit-content;
+    border-width: 15px;
+    border-radius: 3px;
+    opacity: 50%;
+}
+.s4box:hover{
+    opacity: 70%;
+}
+.s5box{
+    display: inline-block;
+    margin: 1px;
+    margin-top: 20px;
+    position: relative;
+    font-weight:600;
+    font-family: seinfeld;
+    font-size:50px;
+    color: #e4021c;
+    text-shadow: 2px 1px #000;
+    background:#534d68;
+    border-color: #534d68;
+    height: 407px;
+    width: fit-content;
+    border-width: 15px;
+    border-radius: 3px;
+    opacity: 50%;
+}
+.s5box:hover{
+    opacity: 70%;
+}
+.s6box{
+    display: inline-block;
+    margin: 1px;
+    margin-top: 20px;
+    position: relative;
+    font-weight:600;
+    font-family: seinfeld;
+    font-size:50px;
+    color: #e4021c;
+    text-shadow: 2px 1px #000;
+    background:#534d68;
+    border-color: #534d68;
+    height: 407px;
+    width: fit-content;
+    border-width: 15px;
+    border-radius: 3px;
+    opacity: 50%;
+}
+.s6box:hover{
+    opacity: 70%;
+}
+.s7box{
+    display: inline-block;
+    margin: 1px;
+    margin-top: 20px;
+    position: relative;
+    font-weight:600;
+    font-family: seinfeld;
+    font-size:50px;
+    color: #e4021c;
+    text-shadow: 2px 1px #000;
+    background:#534d68;
+    border-color: #534d68;
+    height: 407px;
+    width: fit-content;
+    border-width: 15px;
+    border-radius: 3px;
+    opacity: 50%;
+}
+.s7box:hover{
+    opacity: 70%;
+}
+.s8box{
+    display: inline-block;
+    margin: 1px;
+    margin-top: 20px;
+    position: relative;
+    font-weight:600;
+    font-family: seinfeld;
+    font-size:50px;
+    color: #e4021c;
+    text-shadow: 2px 1px #000;
+    background:#534d68;
+    border-color: #534d68;
+    height: 407px;
+    width: fit-content;
+    border-width: 15px;
+    border-radius: 3px;
+    opacity: 50%;
+}
+.s8box:hover{
+    opacity: 70%;
+}
+.s9box{
+    display: inline-block;
+    margin: 1px;
+    margin-top: 20px;
+    position: relative;
+    font-weight:600;
+    font-family: seinfeld;
+    font-size:50px;
+    color: #e4021c;
+    text-shadow: 2px 1px #000;
+    background:#534d68;
+    border-color: #534d68;
+    height: 407px;
+    width: fit-content;
+    border-width: 15px;
+    border-radius: 3px;
+    opacity: 50%;
+}
+.s9box:hover{
+    opacity: 70%;
+}
+.boxes{
+    background-color: black;
+    white-space: nowrap;
+    height: 450px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+::-webkit-scrollbar {
+    background: transparent;
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 25px rgb(255, 191, 0); 
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #b30000; 
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #5e0a0a; 
+  }
+  ::selection {
+    color: rgb(255, 0, 0);
+    background: rgb(255, 255, 255);
+  }
